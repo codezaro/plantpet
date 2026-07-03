@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { User } from "../auth/AuthContext";
+import { User } from "../../auth/AuthContext";
 
 type Plant = {
   id: string;
@@ -163,7 +163,7 @@ export default function HomeScreen({ user, onSignOut }: Props) {
           <Text style={styles.statsTitle}>My Stats</Text>
           <View style={styles.statsRow}>
             <View style={styles.statsItem}>
-              <View style={[styles.statsIcon, { backgroundColor: "#E6F7EE" }]}> 
+              <View style={[styles.statsIcon, { backgroundColor: "#E6F7EE" }]}>
                 <Text style={styles.statsIconText}>🌿</Text>
               </View>
               <Text style={styles.statsNumber}>4</Text>
@@ -171,7 +171,7 @@ export default function HomeScreen({ user, onSignOut }: Props) {
             </View>
             <View style={styles.statsDivider} />
             <View style={styles.statsItem}>
-              <View style={[styles.statsIcon, { backgroundColor: "#EBF4FF" }]}> 
+              <View style={[styles.statsIcon, { backgroundColor: "#EBF4FF" }]}>
                 <Text style={styles.statsIconText}>💧</Text>
               </View>
               <Text style={styles.statsNumber}>2</Text>
@@ -179,7 +179,7 @@ export default function HomeScreen({ user, onSignOut }: Props) {
             </View>
             <View style={styles.statsDivider} />
             <View style={styles.statsItem}>
-              <View style={[styles.statsIcon, { backgroundColor: "#FFF7E6" }]}> 
+              <View style={[styles.statsIcon, { backgroundColor: "#FFF7E6" }]}>
                 <Text style={styles.statsIconText}>🌞</Text>
               </View>
               <Text style={styles.statsNumber}>1</Text>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { AuthProvider, useAuth } from "./src/auth/AuthContext";
-import HomeScreen from "./src/screens/HomeScreen";
+import HomeScreen from "./src/screens/Home/HomeScreen";
 import LoginScreen from "./src/screens/LoginScreen";
 import SignupScreen from "./src/screens/SignupScreen";
 
